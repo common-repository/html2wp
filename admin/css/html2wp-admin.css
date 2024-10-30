@@ -1,0 +1,74 @@
+/**
+ * All of the CSS for your admin-specific functionality should be included in this file.
+ */
+
+a{text-decoration: none}
+
+.html2wp #wpwrap{
+	background-color: #e9f5f8
+}
+.html2wp .h2p_hide{display: none}
+
+/*html list table class*/
+.html2wp .html_list_table{
+	border-collapse: collapse;
+	width: 100%;
+	background-color: #fff;
+	text-align: center
+}
+.html2wp .html_list_table tr{
+	border-top: 1px solid #F6F6F6;
+	border-bottom: 1px solid #F6F6F6
+}
+.html2wp .html_list_table td,th{
+	padding: 5px
+}
+.html2wp .btn_remove{
+	background-color: #be0000;
+	color: #fff;
+	border: none;
+	padding: 5px 12px;
+	cursor: pointer;
+	border-radius: 5px
+}
+.html2wp .btn_remove:hover{
+	background-color: #a50000
+}
+
+.html2wp .btn_todo{
+	background-color: yellowgreen;
+	color: #fff;
+	border: none;
+	padding: 5px 12px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 82px
+}
+
+.html2wp .html_converted{
+	background-color: orange;
+}
+
+
+/*settings page*/
+.html2wp tr[data-show='none'] {
+	display: none;
+}
+.html2wp .content_options table{
+	max-width: 700px
+}
+.html2wp .input-form{
+	width: 100%;
+	margin-bottom: 5px
+}
+.html2wp .replace_href,.html2wp .replace_src{
+	display: flex;
+	flex-direction: column
+}
+.html2wp .import_content_by label:first-child, .html2wp .import_title_by label:first-child{
+	margin-right: 25px
+}
+.html2wp .inactive{display: none}
+.html2wp .input_tags_style{border: none;width: 75px}
+.html2wp .input_tags_style.input_tags_attr_val{border: none;width: 150px}
+.html2wp .quotes{vertical-align: super}
